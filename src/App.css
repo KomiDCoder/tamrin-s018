@@ -1,0 +1,24 @@
+.carousel-item {
+  width: 100%;
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  gap: 50px;
+}
+.carousel-item .main-image {
+  width: 80%;
+  border-radius: 8px;
+}
+.carousel-item .user-data {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.user-data img {
+  border-radius: 50%;
+  width: 100px;
+}
